@@ -43,4 +43,7 @@ Optimizar la pagina, para que su tiempo de carga no sea excesivmente largo.
 
 Solucion: Cambiar el tamaño de las fotografias de las tapas para que sean mas pequeñas ✔
 
+# Diseño adaptativo
+## Cambios de diseño detallados para cada dispositivo
+	- Breakpoints: Cuando la resolucion de la pantalla es menor de 1200px el diseño pasa a ser de dos columnas, cuando la resolucion es menor de 740px el diseño pasa a ser de una columna y tambien la barra de navegacion se convierte en un menu hamburguesa para un diseño mas limpio
 ## quitar botones que no sean necesario y elementos no funcionales (boton cerrar de la modal, buscador de la barra nav)
