@@ -19,26 +19,28 @@ Este repositorio contiene la funcionalidad de añadir, modificar y eliminar tapa
 ### Descripcion de los cinco aspectos evaluados:
 - Visibilidad del estado del sistema:
 Confirmacion sobre eliminaciones de elementos y creaciones de nuevos elementos.
-Solucion: Poner un mensaje que se ha podido realizar la accion correctamente
+
+Solucion: Poner un mensaje que se ha podido realizar la accion correctamente. ✔
 
 - Control de usuario y libertad:
 Cuando se este realizando un cambio de una tapa y el usuario quiera salir de la pagina, insertando una nueva tapa o eliminando una tapa, poner una confirmacion para que el usuario pueda decidir, por si pulsa por error.
-Solucion: Poner un mensaje de confirmacion para dar el poder de elegir al usuario si quiere realizar esa accion o no.
+
+Solucion: Poner un mensaje de confirmacion para dar el poder de elegir al usuario si quiere realizar esa accion o no. ✔
 
 
 - Prevencion de errores:
 Informar al usuario cuando el usuario o la constraseña no coinciden a la hora de acceder a la cuenta.
-Solucion: Un mensaje de error de que las credenciales no coinciden.
+
+Solucion: Un mensaje de error de que las credenciales no coinciden. ✔
 
 - Ayudar a reconocer, dignosticar y recuperar la situacion cuando se produce un error:
 En caso, que ocurra un error a la hora de insertar o modificar una tapa, que no se pierda toda la informacion y se siga conservando en el formulario, haciendo menos frustrante el error ocurrido.
-Solucion: Hacer una comprobacion que la tapa se ha podido insertar o modificar correctamente antes de vaciar el formulario o cambiarlo a la pagina principal, en caso que no se haya podido realizar la tarea correctamente, que se siga manteniendo la informacion del formulario.
+
+Solucion: Hacer una comprobacion que la tapa se ha podido insertar o modificar correctamente antes de vaciar el formulario o cambiarlo a la pagina principal, en caso que no se haya podido realizar la tarea correctamente, que se siga manteniendo la informacion del formulario. ✔
 
 - Reduccion del tiempo de latencia:
 Optimizar la pagina, para que su tiempo de carga no sea excesivmente largo.
-Solucion: Cambiar el tamaño de las fotografias de las tapas para que sean mas pequeñas
 
-
-## punto 1, punto 3, punto 5, punto 9 corregido (linea 37-40 insertar.js)
+Solucion: Cambiar el tamaño de las fotografias de las tapas para que sean mas pequeñas ✔
 
 ## quitar botones que no sean necesario y elementos no funcionales (boton cerrar de la modal, buscador de la barra nav)

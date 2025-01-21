@@ -45,7 +45,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+p{
+    color: red;
+}
+.error{
+    display: none;
+}
 @media (max-width: 768px) {
 
     header {

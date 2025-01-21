@@ -76,12 +76,14 @@ filtrarFav.addEventListener('click', ()=>{
 //Con esta funcion obtenemos las tapas que se han seleccionado como favoritos
 export function misFavoritos(){
     let tapas = document.querySelectorAll('.tapasTitle');
-    for(let user of dataUsuarios){
-        if(user.name == JSON.parse(localStorage.getItem('userInfo')).name){
-            for(let k = 0; k< user.favoritos.length; k++){
-                for(let w = 0; w < tapas.length; w++){
-                    if(tapas[w].attributes.tpsid.value == user.favoritos[k]){
-                        tapas[w].firstElementChild.src = './svg/heart-solid.svg';
+    if(JSON.parse(localStorage.getItem('userInfo')) !== null){
+        for(let user of dataUsuarios){
+            if(user.name == JSON.parse(localStorage.getItem('userInfo')).name){
+                for(let k = 0; k< user.favoritos.length; k++){
+                    for(let w = 0; w < tapas.length; w++){
+                        if(tapas[w].attributes.tpsid.value == user.favoritos[k]){
+                            tapas[w].firstElementChild.src = './svg/heart-solid.svg';
+                        }
                     }
                 }
             }

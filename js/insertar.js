@@ -35,19 +35,24 @@ formulario.addEventListener('submit', (event)=>{
             ]
         };
         if(dataBares.push(dataTapa)){
+            
             render(dataBares);
+            alert('La tapa se ha añadido correctamente');
             volver();
         }
     }
 })
 
-button.addEventListener('click', volver);
+button.addEventListener('click', ()=>{
+    if(confirm('¿Estas seguro de que quieres volver sin guardar los cambios?')){
+        volver()
+    }
+});
 
 //Con esta funcion podemos volver a la galeria de tapas
-function volver(){
+export function volver(){
     let formInsertar = document.getElementById('formInsertar');
     let tapas = document.getElementById('tapas');
-    let btnModificar = document.getElementById('modificar');
     formInsertar.style.display = 'none';
     tapas.style.display = 'block';
 }

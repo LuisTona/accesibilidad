@@ -1,6 +1,6 @@
 import { render } from "./creadorTapas.js";
 import { dataBares } from "./data.js";
-import { imagenSeleccionada, ingredientesAñadidos } from "./insertar.js";
+import { imagenSeleccionada, ingredientesAñadidos, volver } from "./insertar.js";
 
 let nombreDeBar = document.getElementById('nombreBar');
 let nombreDeTapa = document.getElementById('nombreTapa');
@@ -46,7 +46,8 @@ export function modificar(id, barNombre){
                     bares.nombreBar = nombreDeBar.value.trim();
                     bares.tapas.splice(tapaId, 1, nuevaTapa);
                     render(dataBares);
-                    document.getElementById('volver').click();
+                    alert('La tapa se ha modificado correctamente')
+                    volver();
                 }
             }
         }
