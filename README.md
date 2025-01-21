@@ -15,8 +15,8 @@ Este repositorio contiene la funcionalidad de añadir, modificar y eliminar tapa
         --Cambios de diseño detallados para cada dispositivo (móvil en vertical, PC, y opcionalmente móvil en horizontal o tablet).
         --Explicación de cómo las decisiones adoptadas mejoran la experiencia del usuario.
 
-## Estudio Usabilidad
-### Descripcion de los cinco aspectos evaluados:
+# Estudio Usabilidad
+## Descripcion de los cinco aspectos evaluados:
 - Visibilidad del estado del sistema:
 Confirmacion sobre eliminaciones de elementos y creaciones de nuevos elementos.
 
