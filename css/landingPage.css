@@ -1,3 +1,11 @@
+*, ::after, ::before{
+    box-sizing:content-box;
+}
+hr{
+    margin: 5px;
+    opacity: 1;
+    border: 1px solid;
+}
 /* Variables de colores y fuentes */
 :root {
     --color-secondary: #45567d;
@@ -56,9 +64,9 @@ footer {
 }
 
 
-/* Barra de Navegación */
+/* Barra de navegacionegación */
 
-.nav {
+.navegacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,12 +84,12 @@ footer {
             padding: 4px;
         }
     }
-    & .nav-list .dropdown {
+    & .nav-list .drop {
         position: relative;
         display: inline-block;
     }
 
-    & .dropdown-menu {
+    & .drop-menu {
         display: none;
         position: absolute;
         top: 100%;
@@ -94,7 +102,7 @@ footer {
         min-width: 265px;
     }
 
-    & .dropdown-menu li a {
+    & .drop-menu li a {
         display: block;
         text-decoration: none;
         color: black;
@@ -102,14 +110,14 @@ footer {
         padding: 15px;
     }
 
-    & .dropdown-menu li:hover{
+    & .drop-menu li:hover{
         background-color: #942635;
         & a{
             color: #f0f0f0;
         }
     }
 
-    & .dropdown:hover .dropdown-menu {
+    & .drop:hover .drop-menu {
         display: block;
     }
 
@@ -338,7 +346,7 @@ footer {
 
 
 @media screen and (width < 740px){
-    .nav{
+    .navegacion{
         font-size: 10px;
     }
     .tapasGrid{
@@ -347,7 +355,7 @@ footer {
     #menu{
         display: none;
     }
-    .nav{
+    .navegacion{
         & div{
             & input{
                 display: none;
@@ -355,19 +363,27 @@ footer {
         }
     }
     #hamburguesa{
+        padding: 0px;
+        width: 25px;
         display: block;
-        width: 15px;
         margin-right: 35px;
         cursor: pointer;
         & hr{
             color: #f0f0f0b4;
-            width: 100%;
+            width: 90%;
             height: auto;
         }
         & .nav-list{
             position: absolute;
             right: 120px;
         }
+    }
+    .drop:hover .drop-menu{
+        display: block;
+    }
+    .drop-menu{
+        left: -57px !important;
+        min-width: 150px !important;
     }
     
 }

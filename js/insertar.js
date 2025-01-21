@@ -34,9 +34,10 @@ formulario.addEventListener('submit', (event)=>{
                 }
             ]
         };
-        dataBares.push(dataTapa);
-        volver();
-        render(dataBares);
+        if(dataBares.push(dataTapa)){
+            render(dataBares);
+            volver();
+        }
     }
 })
 
@@ -49,7 +50,6 @@ function volver(){
     let btnModificar = document.getElementById('modificar');
     formInsertar.style.display = 'none';
     tapas.style.display = 'block';
-    btnModificar.click();
 }
 
 añadirIngrediente.addEventListener('click', (e)=>{
