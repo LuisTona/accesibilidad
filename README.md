@@ -1,10 +1,10 @@
-README - Conocimiento de JS, DOM y estructuración de proyectos WEB
+README - Mejora de la Usabilidad en la Web
 
 # Participantes:
 
 Luis Alberto, Adrián Gavela, Alejandro Martínez
 
-Este repositorio contiene la funcionalidad de añadir, modificar y eliminar tapas o solo añadirlas a favoritos, dependiendo del tipo de usuario que sea.
+Este repositorio tiene el objetivo de implementar mejoras de usabilidad y diseño adaptativo para nuestra página web.
 
 # Requisitos previos:
 
@@ -18,32 +18,33 @@ Este repositorio contiene la funcionalidad de añadir, modificar y eliminar tapa
 # Estudio Usabilidad
 ## Descripcion de los cinco aspectos evaluados:
 - Visibilidad del estado del sistema:
-Confirmacion sobre eliminaciones de elementos y creaciones de nuevos elementos.
+Confirmación sobre eliminaciones de elementos y creaciones de nuevos elementos.
 
-Solucion: Poner un mensaje que se ha podido realizar la accion correctamente. ✔
+Solución: Poner un mensaje de que se ha podido realizar la acción correctamente. ✔
 
 - Control de usuario y libertad:
-Cuando se este realizando un cambio de una tapa y el usuario quiera salir de la pagina, insertando una nueva tapa o eliminando una tapa, poner una confirmacion para que el usuario pueda decidir, por si pulsa por error.
+Cuando se este realizando un cambio de una tapa y el usuario quiera salir de la página, insertando una nueva tapa o eliminando una tapa, poner una confirmación para que el usuario pueda decidir, por si pulsa por error.
 
-Solucion: Poner un mensaje de confirmacion para dar el poder de elegir al usuario si quiere realizar esa accion o no. ✔
+Solución: Poner un mensaje de confirmación para dar el poder de elegir al usuario si quiere realizar esa acción o no. ✔
 
 
-- Prevencion de errores:
+- Prevención de errores:
 Informar al usuario cuando el usuario o la constraseña no coinciden a la hora de acceder a la cuenta.
 
-Solucion: Un mensaje de error de que las credenciales no coinciden. ✔
+Solución: Un mensaje de error de que las credenciales no coinciden. ✔
 
-- Ayudar a reconocer, dignosticar y recuperar la situacion cuando se produce un error:
-En caso, que ocurra un error a la hora de insertar o modificar una tapa, que no se pierda toda la informacion y se siga conservando en el formulario, haciendo menos frustrante el error ocurrido.
+- Ayudar a reconocer, dignosticar y recuperar la situación cuando se produce un error:
+En caso de que ocurra un error a la hora de insertar o modificar una tapa, que no se pierda toda la información y se siga conservando en el formulario, haciendo menos frustrante el error ocurrido.
 
-Solucion: Hacer una comprobacion que la tapa se ha podido insertar o modificar correctamente antes de vaciar el formulario o cambiarlo a la pagina principal, en caso que no se haya podido realizar la tarea correctamente, que se siga manteniendo la informacion del formulario. ✔
+Solución: Hacer una comprobación que la tapa se ha podido insertar o modificar correctamente antes de vaciar el formulario o cambiarlo a la página principal, en caso que no se haya podido realizar la tarea correctamente, que se siga manteniendo la información del formulario. ✔
 
-- Reduccion del tiempo de latencia:
-Optimizar la pagina, para que su tiempo de carga no sea excesivmente largo.
+- Reducción del tiempo de latencia:
+Optimizar la página, para que su tiempo de carga no sea excesivmente largo.
 
-Solucion: Cambiar el tamaño de las fotografias de las tapas para que sean mas pequeñas ✔
+Solución: Cambiar el tamaño de las fotografias de las tapas para que sean mas pequeñas ✔
 
 # Diseño adaptativo
 ## Cambios de diseño detallados para cada dispositivo
-	- Breakpoints: Cuando la resolucion de la pantalla es menor de 1200px el diseño pasa a ser de dos columnas, cuando la resolucion es menor de 740px el diseño pasa a ser de una columna y tambien la barra de navegacion se convierte en un menu hamburguesa para un diseño mas limpio
-## quitar botones que no sean necesario y elementos no funcionales (boton cerrar de la modal, buscador de la barra nav)
+	- Breakpoints: Cuando la resolucón de la pantalla es menor de 1200px el diseño pasa a ser de dos columnas, cuando la resolución es menor de 740px el diseño pasa a ser de una columna y tambien la barra de navegacion se convierte en un menu hamburguesa para un diseño más limpio. En todos los casos, el carrusel sigue estando situado en la parte superior, debajo del header aunque con un tamaño reducido si la resolución de la pantalla es pequeña.
+La tipografía sigue siendo igual en todos los casos, lo unico que cambia son la cantidad de columnas de tapas y dependiendo de la resolución, las tarjetas serán de un tamaño mayor o menor.
+Los espacios son respetados para que la página no esté excesivamente cargada.
