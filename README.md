@@ -46,5 +46,5 @@ Solución: Cambiar el tamaño de las fotografias de las tapas para que sean mas 
 # Diseño adaptativo
 ## Cambios de diseño detallados para cada dispositivo
 	- Breakpoints: Cuando la resolucón de la pantalla es menor de 1200px el diseño pasa a ser de dos columnas, cuando la resolución es menor de 740px el diseño pasa a ser de una columna y tambien la barra de navegacion se convierte en un menu hamburguesa para un diseño más limpio. En todos los casos, el carrusel sigue estando situado en la parte superior, debajo del header aunque con un tamaño reducido si la resolución de la pantalla es pequeña.
-La tipografía sigue siendo igual en todos los casos, lo unico que cambia son la cantidad de columnas de tapas y dependiendo de la resolución, las tarjetas serán de un tamaño mayor o menor.
-Los espacios son respetados para que la página no esté excesivamente cargada.
+	- La tipografía sigue siendo igual en todos los casos, lo unico que cambia son la cantidad de columnas de tapas y dependiendo de la resolución, las tarjetas serán de un tamaño mayor o menor.
+	- Los espacios son respetados para que la página no esté excesivamente cargada.
